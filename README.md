@@ -55,7 +55,7 @@ When the button is pressed:
 
 ---
 
-## Demo
+## Demo (Team Project)
 https://www.youtube.com/watch?v=k_EpGdcFMfQ
 
 Images and videos are available in the media folder.
