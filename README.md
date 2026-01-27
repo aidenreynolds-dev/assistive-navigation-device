@@ -1,4 +1,4 @@
-# assistive-navigation-device
+# Assistive Navigation Device for the Visually Impaired
 
 A wearable assistive device using Raspberry Pi and AI to help visually impaired users navigate their surroundings using audio and haptic feedback.
 
