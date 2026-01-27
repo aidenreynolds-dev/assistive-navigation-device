@@ -1,6 +1,3 @@
-![Device Prototype](media/device_front.jpg) 
-![Device Prototype](media/device_back.jpg)
-
 # assistive-navigation-device
 
 A wearable assistive device using Raspberry Pi and AI to help visually impaired users navigate their surroundings using audio and haptic feedback.
@@ -26,6 +23,12 @@ When the button is pressed:
 3. The response is converted into text.
 4. The text is converted into speech.
 5. Audio and haptic feedback are delivered to the user.
+
+---
+
+## Prototype
+
+![Device Prototype](media/device_front.jpg) 
 
 ---
 
