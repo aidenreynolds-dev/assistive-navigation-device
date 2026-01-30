@@ -1,7 +1,6 @@
 # Assistive Navigation Device for the Visually Impaired
-🚀 Built a wearable AI-powered navigation device to help visually impaired users navigate safely using real-time computer vision, audio, and haptic feedback.
 
-A wearable assistive device using Raspberry Pi and AI to help visually impaired users navigate their surroundings using audio and haptic feedback.
+🚀 Built a wearable AI-powered navigation device to help visually impaired users navigate safely using real-time computer vision, audio, and haptic feedback.
 
 ---
 
@@ -12,9 +11,9 @@ This project is a wearable system that captures images of the user's surrounding
 
 ## Demo
 ▶️ YouTube Demo: https://www.youtube.com/watch?v=k_EpGdcFMfQ
-📷 Device images in /media
+📷 Device images in:  /media
 
--- 
+---
 
 ## Problem Statement
 Visually impaired individuals often face challenges such as identifying objects, reading labels, and navigating unfamiliar spaces. Many existing solutions are expensive, slow, or overly complex. This project aims to provide an affordable, portable, and easy-to-use alternative.
@@ -35,7 +34,10 @@ When the button is pressed:
 
 ## Prototype
 
-![Device Prototype](media/device_front.jpg) 
+Physical wearable prototype integrating camera, button, speaker, and vibration motor.
+
+![Device Prototype](media/device_front.jpg)
+
 
 ---
 
@@ -44,7 +46,7 @@ When the button is pressed:
 - Raspberry Pi OS (Linux)
 - OpenAI Vision API (REST)
 - Camera Module
-- Text-to-Speech (pyttsx3 / gTTS if used)
+- Text-to-Speech (pyttsx3 / gTTS)
 - Speaker & Vibration Motor
 
 ---
@@ -65,13 +67,6 @@ When the button is pressed:
 4. Software development
 5. Prototyping and assembly
 6. User testing and iteration
-
----
-
-## Demo (Team Project)
-https://www.youtube.com/watch?v=k_EpGdcFMfQ
-
-Images and videos are available in the media folder.
 
 ---
 
@@ -99,6 +94,11 @@ Images and videos are available in the media folder.
 - Managing team-based engineering projects
 
 ---
+
+## Documentation
+Design drafts, development proposals, and presentation materials are available in the /docs folder.
+
+--- 
 
 ## Setup Instructions
 1. Clone the repository  
