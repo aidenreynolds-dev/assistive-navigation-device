@@ -1,4 +1,5 @@
 # Assistive Navigation Device for the Visually Impaired
+🚀 Built a wearable AI-powered navigation device to help visually impaired users navigate safely using real-time computer vision, audio, and haptic feedback.
 
 A wearable assistive device using Raspberry Pi and AI to help visually impaired users navigate their surroundings using audio and haptic feedback.
 
@@ -8,6 +9,12 @@ A wearable assistive device using Raspberry Pi and AI to help visually impaired 
 This project is a wearable system that captures images of the user's surroundings and uses artificial intelligence to describe them in real time. The output is delivered through audio and vibration feedback, allowing visually impaired users to better understand and navigate their environment.
 
 ---
+
+## Demo
+▶️ YouTube Demo: https://www.youtube.com/watch?v=k_EpGdcFMfQ
+📷 Device images in /media
+
+-- 
 
 ## Problem Statement
 Visually impaired individuals often face challenges such as identifying objects, reading labels, and navigating unfamiliar spaces. Many existing solutions are expensive, slow, or overly complex. This project aims to provide an affordable, portable, and easy-to-use alternative.
@@ -33,11 +40,11 @@ When the button is pressed:
 ---
 
 ## Technology Stack
-- Raspberry Pi / Arduino
 - Python
-- OpenAI API
+- Raspberry Pi OS (Linux)
+- OpenAI Vision API (REST)
 - Camera Module
-- Text-to-Speech Engine
+- Text-to-Speech (pyttsx3 / gTTS if used)
 - Speaker & Vibration Motor
 
 ---
@@ -69,10 +76,11 @@ Images and videos are available in the media folder.
 ---
 
 ## My Role
-- Developed core Python logic
-- Integrated OpenAI API
-- Assisted with hardware setup
-- Participated in user testing and analysis
+- Designed and implemented core Python application logic
+- Integrated OpenAI Vision API and response parsing
+- Developed image processing and request pipeline
+- Assisted with hardware integration and calibration
+- Led debugging and performance testing
 
 ---
 
@@ -83,11 +91,20 @@ Images and videos are available in the media folder.
 
 ---
 
+## What I Learned
+- Designing hardware-software systems
+- Working with REST APIs and real-time data
+- Debugging embedded systems
+- User-centered accessibility design
+- Managing team-based engineering projects
+
+---
+
 ## Setup Instructions
-1. Clone this repository
-2. Install required Python dependencies
-3. Connect hardware components
-4. Configure OpenAI API key
-5. Run the main program
+1. Clone the repository  
+2. Install dependencies: pip install -r requirements.txt  
+3. Configure OpenAI API key in environment variables  
+4. Connect camera and hardware components  
+5. Run: python src/main.py
 
 Detailed setup instructions are available in the docs folder.
